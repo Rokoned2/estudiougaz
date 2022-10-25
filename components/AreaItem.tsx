@@ -1,7 +1,23 @@
 import Image from "next/image";
 import React from "react";
 
-const AreaItem = ({ iconFront, iconBack, image, title, description, link }) => {
+interface AreaItemProps {
+  iconFront: string;
+  iconBack: string;
+  image: string;
+  title: string;
+  description: string;
+  link: string;
+}
+
+const AreaItem: React.FC<AreaItemProps> = ({
+  iconFront,
+  iconBack,
+  image,
+  title,
+  description,
+  link,
+}) => {
   return (
     <div
       data-aos="fade-up"

@@ -1,6 +1,13 @@
 import React from "react";
 
-const NewsItem = ({ image, title, date, link }) => {
+interface NewsItemProps {
+  image: string;
+  title: string;
+  date: string;
+  link: string;
+}
+
+const NewsItem: React.FC<NewsItemProps> = ({ image, title, date, link }) => {
   return (
     <div className="shadow-2xl bg-[#ffffff] mb-[0.3rem]">
       <div className="w-full h-full">

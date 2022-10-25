@@ -1,6 +1,17 @@
 import React from "react";
 
-const AreaCarouselItem = ({ image, link, title }) => {
+interface AreaCarouselItemProps {
+  image: string;
+  title: string;
+  date: string;
+  link: string;
+}
+
+const AreaCarouselItem: React.FC<AreaCarouselItemProps> = ({
+  image,
+  link,
+  title,
+}) => {
   return (
     <a href={link}>
       <div className="relative w-[65vw] h-[15.1875rem] overflow-hidden rounded-lg">
