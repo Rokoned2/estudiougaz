@@ -81,7 +81,7 @@ const BannerSection = () => {
               <iframe
                 className="absolute w-[69.1675rem] md:w-[130vw] md:h-[130vh] left-[50%] -translate-x-[50%] h-full"
                 // className="absolute -translate-x-16 h-full w-[56.44375rem] object-cover object-center"
-                src="https://www.youtube.com/embed/ImGr3CaVJhA?autoplay=1&controls=0&mute=1&loop=1&modestbranding=0&showinfo=0&start=0&enablejsapi=1&&widgetid=3&allowfullscreen=false&playlist=ImGr3CaVJhA"
+                src="https://www.youtube.com/embed/ImGr3CaVJhA?autoplay=1&controls=0&mute=1&loop=1&modestbranding=1&fs=0&iv_load_policy=3&rel=0&disablekb=1&showinfo=0&start=0&enablejsapi=1&&widgetid=3&playsinline=1&allowfullscreen=false&playlist=ImGr3CaVJhA"
                 // src="https://www.youtube.com/embed/ImGr3CaVJhA?allowfullscreen=false&controls=0&enablejsapi=1&disablekb=1&fs=0&iv_load_policy=3&modestbranding=1&origin=https%3A%2F%2Festudiougaz.com&playsinline=1&rel=0&showinfo=0&start=0&autoplay=1&playlist=ImGr3CaVJhA&loop=1&widgetid=1"
                 title="YouTube video player"
                 frameBorder="0"

@@ -14,9 +14,9 @@ import SentenceSection from "../components/SentenceSection";
 
 const Home: NextPage = () => {
   return (
-    <div className="font-lato">
+    <div className="font-lato overflow-hidden">
       <Head>
-        <title>Create Next App</title>
+        <title>Estudio Ugaz Zegarra</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="relative">
