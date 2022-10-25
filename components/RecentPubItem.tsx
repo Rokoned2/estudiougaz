@@ -1,7 +1,21 @@
 import React from "react";
 import { SwiperSlide } from "swiper/react";
 
-const RecentPubItem = ({ tagContent, date, title, image, link }) => {
+interface RecentPubItemProps {
+  tagContent: string;
+  date: string;
+  title: string;
+  image: string;
+  link: string;
+}
+
+const RecentPubItem: React.FC<RecentPubItemProps> = ({
+  tagContent,
+  date,
+  title,
+  image,
+  link,
+}) => {
   return (
     <a href={link}>
       <div className="relative h-[100vw] sm:h-[25rem] overflow-hidden rounded-lg sm:rounded-none">
