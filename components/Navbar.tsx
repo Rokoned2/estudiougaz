@@ -132,11 +132,11 @@ const Navbar = () => {
           activeSidebar
             ? "opacity-1 translate-x-0"
             : "opacity-0 translate-x-full"
-        } z-[60] transition-all duration-700 bg-[#004169] absolute top-0 left-0 w-full h-screen flex items-center justify-center lg:hidden`}
+        } z-[60] transition-all duration-700 bg-[#004169] fixed top-0 left-0 w-full h-full  lg:hidden`}
       >
         <div
           onClick={() => setActiveSidebar(!activeSidebar)}
-          className="absolute top-8 right-8 z-[70] bg-white rounded-full p-4 cursor-pointer"
+          className="fixed top-8 right-8 z-[70] bg-white rounded-full p-4 cursor-pointer"
         >
           <img
             className="w-3"
@@ -144,7 +144,7 @@ const Navbar = () => {
             alt=""
           />
         </div>
-        <ul className="flex flex-col justify-center text-white text-center text-[1.8125rem] h-full ">
+        <ul className="flex flex-col justify-center text-white text-center text-[1.8125rem] fixed left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 z-[80] ">
           <a className="mb-6" href="https://estudiougaz.com/areas/">
             <li>Inicio</li>
           </a>
