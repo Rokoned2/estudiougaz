@@ -17,7 +17,7 @@ const Home: NextPage = () => {
     <div className="font-lato overflow-hidden">
       <Head>
         <title>Estudio Ugaz Zegarra</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/faviconV2.png" />
       </Head>
       <div className="relative">
         <Navbar />
